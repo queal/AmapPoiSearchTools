@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateDescriptor baseUrl="">
+  <entry targetMediaFileId="26" updatableVersionMin="" updatableVersionMax="" fileName="AmapPoiSearch_windows_1_0.zip" newVersion="1.0" newMediaFileId="26" fileSize="37990968" bundledJre="windows-x86-1.7.0_80" archive="true">
+    <comment language="zh_CN" />
+  </entry>
+</updateDescriptor>
+

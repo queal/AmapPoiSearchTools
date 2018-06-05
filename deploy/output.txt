@@ -1,0 +1,3 @@
+# List of generated media files. The columns are tab-separated:
+# id | media file type | display name | media file path
+26	windows	Windows Archive	E:\svnCode\AmapPoiSearchTools\deploy\AmapPoiSearch_windows_1_0.zip
