@@ -130,15 +130,16 @@ public class MainWin extends JFrame {
 					return;
 				}
 
-				final File file = new File(filePath);
-				if (file.isDirectory()) {
-					JOptionPane.showMessageDialog(null, "保存地址不能为目录!");
-					return;
-				}
-
+				
 				new Thread(new Runnable() {
 					@Override
 					public void run() {
+						final File file = new File(filePath);
+						if (file.isDirectory()) {
+							JOptionPane.showMessageDialog(null, "保存地址不能为目录!");
+							return;
+						}
+
 						List<RowData> rowDataList = AmapPoiService
 								.queryPoiData(adCode, poiCode);
 
