@@ -12,16 +12,16 @@ public class Main {
 	public static void main(String[] args) {
 
 		// 郑州市  
-		// 410100#090000
+		// 410100#110000
 		//  
 		// 许昌市  
-		// 411000#090000
+		// 411000#110000
 		//  
 		// 成都市  
-		// 510100#090000
-		String filePath = "成都市-医院数据.xlsx";
+		// 510100#110000
+		String filePath = "成都市-风景名胜.xlsx";
 		String adCode = "510100";
-		String poiCode = "090000";
+		String poiCode = "110000";
 
 		List<RowData> rowDataList = AmapPoiService
 				.queryPoiData(adCode, poiCode);

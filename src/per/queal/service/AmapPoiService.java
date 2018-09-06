@@ -72,14 +72,14 @@ public class AmapPoiService {
 
 	public static void main(String[] args) {
 		// 郑州市  
-		// 410100#090000
+		// 410100#110000
 		//  
 		// 许昌市  
-		// 411000#090000
+		// 411000#110000
 		//  
 		// 成都市  
-		// 510100#090000
-		queryPoiData("410100", "090000");
+		// 510100#110000
+		queryPoiData("410100", "110000");
 
 	}
 }
